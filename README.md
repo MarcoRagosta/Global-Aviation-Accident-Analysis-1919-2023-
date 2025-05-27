@@ -16,14 +16,18 @@ Il dataset fornito comprende circa 25.000 incidenti aerei registrati tra il 1919
 Ogni riga rappresenta un incidente aereo e contiene i seguenti campi:
 
 ### Colonna	Descrizione
-#### date	-- Data dell'incidente
-#### type	-- Tipo/modello del velivolo coinvolto
-#### registration	-- Codice di registrazione dell’aeromobile
-#### operator	-- Operatore dell’aeromobile (compagnia aerea, ente governativo, ecc.)
-#### fatalities	-- Numero totale di vittime (inclusi equipaggio e passeggeri)
-#### location	-- Luogo specifico in cui è avvenuto l’incidente
-#### country	-- Nazione in cui è avvenuto l’incidente
-#### cat	--	Categoria dell’incidente secondo la classificazione ASN
+| Colonna        | Descrizione                                        |
+| -------------- | -------------------------------------------------- |
+| `date`         | Data dell'incidente                                |
+| `type`         | Tipo/modello del velivolo                          |
+| `registration` | Codice di registrazione dell’aeromobile            |
+| `operator`     | Compagnia/ente operatore                           |
+| `fatalities`   | Numero totale di vittime (equipaggio + passeggeri) |
+| `location`     | Luogo specifico dell’incidente                     |
+| `country`      | Nazione dell’incidente                             |
+| `cat`          | Categoria ASN dell’incidente                       |
+
+<br>
 
 
 ## Analisi e Insight Principali 📊 
@@ -48,7 +52,7 @@ L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 - Gravità media per categoria
 - Trend delle categorie nel tempo
 
-### Bonus: Cartogramma Geografico 🗺️ 
+## Bonus: Cartogramma Geografico 🗺️ 
 È incluso un cartogramma interattivo per visualizzare:
 - Il numero assoluto di incidenti per paese
 - Il tasso di fatalità medio per incidente
@@ -65,41 +69,14 @@ L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 - Ambiente: Jupyter Notebook
 - Visualizzazione: Grafici statici e dinamici, mappe interattive
 
-### Struttura della Repository 📂 
-'''├── data/
-│   └── aviation_accidents_1919_2023.csv        # Dataset principale
-│
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb                  # Pulizia dati e formattazione
-│   ├── 02_eda_overview.ipynb                   # Analisi esplorativa generale
-│   ├── 03_temporal_analysis.ipynb              # Analisi temporale
-│   ├── 04_geographical_analysis.ipynb          # Analisi geografica e cartogramma
-│   ├── 05_operator_aircraft_analysis.ipynb     # Analisi per operatori e modelli
-│   └── 06_category_analysis.ipynb              # Analisi per categoria ASN
-│
-├── outputs/
-│   ├── plots/                                  # Grafici salvati
-│   └── maps/                                   # Mappe e cartogrammi
-│
-├── src/
-│   └── utils.py                                # Funzioni di supporto riutilizzabili
-│
-├── requirements.txt                            # Lista delle dipendenze
-├── README.md                                   # Descrizione del progetto
-└── LICENSE                                     # Licenza del progetto'''
-
-
-
-
-
-### Estensioni Future 🧪 
+## Estensioni Future 🧪 
 - Integrazione con fonti esterne (es. condizioni meteo, traffico aereo)
 - Dashboard web interattiva per stakeholder IASS
 - Modelli di previsione del rischio per area geografica e periodo
 - Segmentazione degli incidenti per contesto operativo (commerciale, militare, privato)
 
-### Licenza 🔐
+## Licenza 🔐
 Questo progetto è rilasciato sotto licenza MIT. Vedi il file LICENSE per i dettagli.
 
-### Contributi 🤝 
+## Contributi 🤝 
 I contributi sono benvenuti! Apri un'Issue per segnalare problemi o proporre funzionalità. Pull Request strutturate sono incoraggiate.
