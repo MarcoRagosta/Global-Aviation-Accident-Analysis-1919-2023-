@@ -52,6 +52,7 @@ L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 - Trend delle categorie nel tempo
 
 <br>
+
 ## Bonus: Cartogramma Geografico 🗺️ 
 È incluso un cartogramma interattivo per visualizzare:
 - Il numero assoluto di incidenti per paese
@@ -70,6 +71,7 @@ L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 - Visualizzazione: Grafici statici e dinamici, mappe interattive
 
 <br>
+
 ## Estensioni Future 🧪 
 - Integrazione con fonti esterne (es. condizioni meteo, traffico aereo)
 - Dashboard web interattiva per stakeholder IASS
@@ -77,6 +79,7 @@ L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 - Segmentazione degli incidenti per contesto operativo (commerciale, militare, privato)
 
 <br>
+
 ## Licenza 🔐
 Questo progetto è rilasciato sotto licenza MIT. Vedi il file LICENSE per i dettagli.
 
