@@ -5,14 +5,14 @@ La International Alliance for Safe Skies (IASS) ha incaricato lo sviluppo di un�
 
 Il dataset fornito comprende circa 25.000 incidenti aerei registrati tra il 1919 e il 2023, ciascuno descritto da informazioni fondamentali relative al velivolo, al luogo, alla gravità dell'incidente e al contesto operativo.
 
-🎯 Obiettivi del Progetto
+🎯 ## Obiettivi del Progetto
 - Identificare trend temporali e geografici degli incidenti
 - Valutare la sicurezza degli operatori aerei e dei tipi di velivoli
 - Studiare l’impatto degli eventi storici, come l’11 Settembre, sulla frequenza degli incidenti
 - Rilevare anomalie e cambiamenti comportamentali nei decenni
 - Fornire alla IASS strumenti analitici e visuali per supportare strategie data-driven di prevenzione
 
-🧾 Descrizione del Dataset
+🧾 ## Descrizione del Dataset
 Ogni riga rappresenta un incidente aereo e contiene i seguenti campi:
 
 Colonna	Descrizione
@@ -25,7 +25,7 @@ location	Luogo specifico in cui è avvenuto l’incidente
 country	Nazione in cui è avvenuto l’incidente
 cat	Categoria dell’incidente secondo la classificazione ASN
 
-📊 Analisi e Insight Principali
+📊 ## Analisi e Insight Principali
 L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 🌍 Analisi Geografica
 - Nazioni con maggior numero di incidenti
