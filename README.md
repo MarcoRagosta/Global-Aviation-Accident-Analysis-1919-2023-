@@ -66,9 +66,6 @@ L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 - Visualizzazione: Grafici statici e dinamici, mappe interattive
 
 ### Struttura della Repository 📂 
-text
-Copia
-Modifica
 ├── data/
 │   └── aviation_accidents_1919_2023.csv    # Dataset principale
 ├── notebooks/
@@ -86,6 +83,7 @@ Modifica
 ├── requirements.txt                        # Lista delle dipendenze
 ├── README.md                               # Descrizione del progetto (questo file)
 └── LICENSE                                 # Licenza del progetto
+
 
 
 ### Estensioni Future 🧪 
