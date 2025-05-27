@@ -29,7 +29,6 @@ Ogni riga rappresenta un incidente aereo e contiene i seguenti campi:
 
 <br>
 
-
 ## Analisi e Insight Principali 📊 
 L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 ### Analisi Geografica 🌍 
@@ -52,6 +51,7 @@ L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 - Gravità media per categoria
 - Trend delle categorie nel tempo
 
+<br>
 ## Bonus: Cartogramma Geografico 🗺️ 
 È incluso un cartogramma interattivo per visualizzare:
 - Il numero assoluto di incidenti per paese
@@ -69,14 +69,17 @@ L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 - Ambiente: Jupyter Notebook
 - Visualizzazione: Grafici statici e dinamici, mappe interattive
 
+<br>
 ## Estensioni Future 🧪 
 - Integrazione con fonti esterne (es. condizioni meteo, traffico aereo)
 - Dashboard web interattiva per stakeholder IASS
 - Modelli di previsione del rischio per area geografica e periodo
 - Segmentazione degli incidenti per contesto operativo (commerciale, militare, privato)
 
+<br>
 ## Licenza 🔐
 Questo progetto è rilasciato sotto licenza MIT. Vedi il file LICENSE per i dettagli.
 
+<br>
 ## Contributi 🤝 
 I contributi sono benvenuti! Apri un'Issue per segnalare problemi o proporre funzionalità. Pull Request strutturate sono incoraggiate.
