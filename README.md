@@ -84,5 +84,6 @@ L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 Questo progetto è rilasciato sotto licenza MIT. Vedi il file LICENSE per i dettagli.
 
 <br>
+
 ## Contributi 🤝 
 I contributi sono benvenuti! Apri un'Issue per segnalare problemi o proporre funzionalità. Pull Request strutturate sono incoraggiate.
