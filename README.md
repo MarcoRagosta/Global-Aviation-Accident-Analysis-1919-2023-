@@ -66,23 +66,29 @@ L’analisi esplorerà i dati da molteplici prospettive, tra cui:
 - Visualizzazione: Grafici statici e dinamici, mappe interattive
 
 ### Struttura della Repository 📂 
-├── data/
-│   └── aviation_accidents_1919_2023.csv    # Dataset principale
+'''├── data/
+│   └── aviation_accidents_1919_2023.csv        # Dataset principale
+│
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb              # Pulizia dati e formattazione
-│   ├── 02_eda_overview.ipynb               # Analisi esplorativa generale
-│   ├── 03_temporal_analysis.ipynb          # Analisi temporale
-│   ├── 04_geographical_analysis.ipynb      # Analisi geografica e cartogramma
-│   ├── 05_operator_aircraft_analysis.ipynb # Analisi per operatori e modelli
-│   └── 06_category_analysis.ipynb          # Analisi per categoria ASN
+│   ├── 01_data_cleaning.ipynb                  # Pulizia dati e formattazione
+│   ├── 02_eda_overview.ipynb                   # Analisi esplorativa generale
+│   ├── 03_temporal_analysis.ipynb              # Analisi temporale
+│   ├── 04_geographical_analysis.ipynb          # Analisi geografica e cartogramma
+│   ├── 05_operator_aircraft_analysis.ipynb     # Analisi per operatori e modelli
+│   └── 06_category_analysis.ipynb              # Analisi per categoria ASN
+│
 ├── outputs/
-│   ├── plots/                              # Grafici salvati
-│   ├── maps/                               # Mappe e cartogrammi
+│   ├── plots/                                  # Grafici salvati
+│   └── maps/                                   # Mappe e cartogrammi
+│
 ├── src/
-│   └── utils.py                            # Funzioni di supporto riutilizzabili
-├── requirements.txt                        # Lista delle dipendenze
-├── README.md                               # Descrizione del progetto (questo file)
-└── LICENSE                                 # Licenza del progetto
+│   └── utils.py                                # Funzioni di supporto riutilizzabili
+│
+├── requirements.txt                            # Lista delle dipendenze
+├── README.md                                   # Descrizione del progetto
+└── LICENSE                                     # Licenza del progetto'''
+
+
 
 
 
